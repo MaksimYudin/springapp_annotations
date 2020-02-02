@@ -13,7 +13,7 @@ public class Computer {
     }
 
     public String getSong() {
-        return musicPlayer.playMusic();
+        return musicPlayer.playMusic(MusicType.CLASSIC);
     }
 
 
